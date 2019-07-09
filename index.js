@@ -23,7 +23,7 @@ function appendKitten(name){
   return plate
 }
 
-function appendKitten(name){
+function prependKitten(name){
   let plate = [name,...kittens]
   return plate
 }
