@@ -17,3 +17,8 @@ function destructivelyRemoveLastKitten(){
 function destructivelyRemoveFirstKitten(){
   kittens.shift()
 }
+
+function appendKitten(name){
+  let plate = [...kittens,name]
+  return plate
+}
