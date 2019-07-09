@@ -34,8 +34,8 @@ function removeLastKitten(){
   return plate
 }
 
-function removeLastKitten(){
+function removeFirstKitten(){
   let plate = [...kittens]
-  plate.pop()
+  plate.shift()
   return plate
 }
