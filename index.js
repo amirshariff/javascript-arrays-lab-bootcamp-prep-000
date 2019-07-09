@@ -28,7 +28,8 @@ function prependKitten(name){
   return plate
 }
 
-function prependKitten(name){
-  let plate = [name,...kittens]
+function removeLastKitten(){
+  let plate = [...kittens]
+  plate.pop()
   return plate
 }
