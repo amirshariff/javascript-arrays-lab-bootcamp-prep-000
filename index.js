@@ -33,3 +33,9 @@ function removeLastKitten(){
   plate.pop()
   return plate
 }
+
+function removeLastKitten(){
+  let plate = [...kittens]
+  plate.pop()
+  return plate
+}
