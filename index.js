@@ -22,3 +22,8 @@ function appendKitten(name){
   let plate = [...kittens,name]
   return plate
 }
+
+function appendKitten(name){
+  let plate = [name,...kittens]
+  return plate
+}
