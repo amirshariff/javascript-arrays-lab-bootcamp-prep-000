@@ -28,3 +28,7 @@ function prependKitten(name){
   return plate
 }
 
+function prependKitten(name){
+  let plate = [name,...kittens]
+  return plate
+}
